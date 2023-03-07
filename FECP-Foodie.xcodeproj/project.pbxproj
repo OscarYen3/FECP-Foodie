@@ -14,6 +14,8 @@
 		0C83E80E29B6EEBC00CADD49 /* FECP_Foodie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0C83E80C29B6EEBC00CADD49 /* FECP_Foodie.xcdatamodeld */; };
 		0C83E81029B6EEBE00CADD49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C83E80F29B6EEBE00CADD49 /* Assets.xcassets */; };
 		0C83E81329B6EEBE00CADD49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C83E81129B6EEBE00CADD49 /* LaunchScreen.storyboard */; };
+		0C83E84529B6F12900CADD49 /* ResultViewDlg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C83E84329B6F12900CADD49 /* ResultViewDlg.swift */; };
+		0C83E84629B6F12900CADD49 /* ResultViewDlg.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C83E84429B6F12900CADD49 /* ResultViewDlg.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		0C83E80F29B6EEBE00CADD49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C83E81229B6EEBE00CADD49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C83E81429B6EEBE00CADD49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C83E84329B6F12900CADD49 /* ResultViewDlg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewDlg.swift; sourceTree = "<group>"; };
+		0C83E84429B6F12900CADD49 /* ResultViewDlg.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultViewDlg.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				0C83E80329B6EEBC00CADD49 /* AppDelegate.swift */,
 				0C83E80529B6EEBC00CADD49 /* SceneDelegate.swift */,
 				0C83E80729B6EEBC00CADD49 /* ViewController.swift */,
+				0C83E84329B6F12900CADD49 /* ResultViewDlg.swift */,
+				0C83E84429B6F12900CADD49 /* ResultViewDlg.xib */,
 				0C83E80929B6EEBC00CADD49 /* Main.storyboard */,
 				0C83E80F29B6EEBE00CADD49 /* Assets.xcassets */,
 				0C83E81129B6EEBE00CADD49 /* LaunchScreen.storyboard */,
@@ -131,6 +137,7 @@
 				0C83E81329B6EEBE00CADD49 /* LaunchScreen.storyboard in Resources */,
 				0C83E81029B6EEBE00CADD49 /* Assets.xcassets in Resources */,
 				0C83E80B29B6EEBC00CADD49 /* Main.storyboard in Resources */,
+				0C83E84629B6F12900CADD49 /* ResultViewDlg.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C83E84529B6F12900CADD49 /* ResultViewDlg.swift in Sources */,
 				0C83E80829B6EEBC00CADD49 /* ViewController.swift in Sources */,
 				0C83E80429B6EEBC00CADD49 /* AppDelegate.swift in Sources */,
 				0C83E80629B6EEBC00CADD49 /* SceneDelegate.swift in Sources */,
@@ -306,6 +314,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oscaryen.FECP-Foodie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -334,6 +345,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oscaryen.FECP-Foodie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
