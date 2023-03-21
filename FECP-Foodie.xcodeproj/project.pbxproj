@@ -16,6 +16,7 @@
 		0C83E81329B6EEBE00CADD49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C83E81129B6EEBE00CADD49 /* LaunchScreen.storyboard */; };
 		0C83E84529B6F12900CADD49 /* ResultViewDlg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C83E84329B6F12900CADD49 /* ResultViewDlg.swift */; };
 		0C83E84629B6F12900CADD49 /* ResultViewDlg.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C83E84429B6F12900CADD49 /* ResultViewDlg.xib */; };
+		0C83E84829B71A1900CADD49 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C83E84729B71A1900CADD49 /* Artwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		0C83E81429B6EEBE00CADD49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C83E84329B6F12900CADD49 /* ResultViewDlg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewDlg.swift; sourceTree = "<group>"; };
 		0C83E84429B6F12900CADD49 /* ResultViewDlg.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultViewDlg.xib; sourceTree = "<group>"; };
+		0C83E84729B71A1900CADD49 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				0C83E80529B6EEBC00CADD49 /* SceneDelegate.swift */,
 				0C83E80729B6EEBC00CADD49 /* ViewController.swift */,
 				0C83E84329B6F12900CADD49 /* ResultViewDlg.swift */,
+				0C83E84729B71A1900CADD49 /* Artwork.swift */,
 				0C83E84429B6F12900CADD49 /* ResultViewDlg.xib */,
 				0C83E80929B6EEBC00CADD49 /* Main.storyboard */,
 				0C83E80F29B6EEBE00CADD49 /* Assets.xcassets */,
@@ -152,6 +155,7 @@
 				0C83E80829B6EEBC00CADD49 /* ViewController.swift in Sources */,
 				0C83E80429B6EEBC00CADD49 /* AppDelegate.swift in Sources */,
 				0C83E80629B6EEBC00CADD49 /* SceneDelegate.swift in Sources */,
+				0C83E84829B71A1900CADD49 /* Artwork.swift in Sources */,
 				0C83E80E29B6EEBC00CADD49 /* FECP_Foodie.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +311,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,6 +343,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
